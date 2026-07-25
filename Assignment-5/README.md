@@ -1,5 +1,9 @@
 # Assignment 5 – Employee Attrition Prediction using Decision Tree and Random Forest Classification
 
+### **Name:** Manish Satish Payaprapp
+### **Reg.No:** 23BCY10046
+### **Application.No:** IN26009666
+
 ## Objective
 Build and compare **Decision Tree** and **Random Forest** classification models to predict whether an employee is likely to leave the organization (**Attrition**), based on demographic, professional, and work-related attributes.
 
