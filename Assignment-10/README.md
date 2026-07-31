@@ -5,12 +5,9 @@ at risk of heart disease based on clinical parameters. The model is
 served through a Flask REST API and deployed as a live web service on
 Render.
 
-## 🔗 Live Deployment
-
-**Render URL:** _`<PASTE YOUR RENDER DEPLOYMENT URL HERE AFTER DEPLOYING>`_
-
-> Replace the line above with your actual Render URL, e.g.
-> `https://heart-disease-deployment.onrender.com`
+### **Name:** Manish Satish Payaprapp
+### **Reg.No:** 23BCY10046
+### **Application.No:** IN26009666
 
 ## 📁 Repository Structure
 
