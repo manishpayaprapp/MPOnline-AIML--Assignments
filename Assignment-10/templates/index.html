@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Heart Disease Prediction API</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 600px; margin: 60px auto; color: #222; }
+    code { background: #f4f4f4; padding: 2px 6px; border-radius: 4px; }
+    pre { background: #f4f4f4; padding: 12px; border-radius: 6px; overflow-x: auto; }
+  </style>
+</head>
+<body>
+  <h1>Heart Disease Prediction API</h1>
+  <p>This service predicts whether a patient is at risk of heart disease based on clinical parameters.</p>
+  <p>Send a <code>POST</code> request to <code>/predict</code> with a JSON body such as:</p>
+  <pre>{
+  "age": 63, "sex": 1, "cp": 3, "trestbps": 145, "chol": 233,
+  "fbs": 1, "restecg": 0, "thalach": 150, "exang": 0,
+  "oldpeak": 2.3, "slope": 0, "ca": 0, "thal": 1
+}</pre>
+  <p>Response:</p>
+  <pre>{
+  "prediction": "Heart Disease Detected",
+  "probability_of_heart_disease": 0.63
+}</pre>
+</body>
+</html>
